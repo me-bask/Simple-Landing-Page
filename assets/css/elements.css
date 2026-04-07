@@ -1,0 +1,117 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+font-size: 2rem;
+line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+font-weight: 900;
+}
+
+h1 {
+font-size: 6rem;
+text-transform: uppercase;
+}
+
+h2 {
+font-size: 6rem;
+margin-bottom: 5rem;
+text-transform: uppercase;
+line-height: 1.2;
+}
+
+h3 {
+font-size: 5rem;
+}
+
+h4 {
+font-size: 4.5rem;
+}
+
+h5 {
+font-size: 4rem;
+}
+
+h6 {
+font-size: 3.5rem;
+}
+
+.top3-content {
+text-align: center;
+display: flex;
+flex-flow: column nowrap;
+max-width: 64rem;
+min-height: 100vh;
+justify-content: center;
+}
+
+.top3-content p{
+margin-bottom: var(--gap);
+font-size: 2.3rem;
+}
+
+.grid-one-content {
+display: flex;
+flex-flow: column wrap;
+min-height: 100vh;
+justify-content: center;
+}
+
+.grid-main-heading {
+margin-bottom: 1rem;
+}
+
+.grid-description {
+padding-bottom: 5rem;
+}
+
+div.main-content.menu-content
+{
+max-width: 120rem;
+padding: 0 var(--gap);
+margin: 0 auto;
+}
+
+.responsive-table {
+width: 100%;
+overflow: hidden;
+overflow-x: auto;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+table caption {
+text-align: right;
+caption-side: bottom;
+font-style: italic;
+}
+
+table th {
+background: rgb(238, 238, 238);
+}
+
+table td, table th {
+white-space: nowrap;
+padding: 0.5rem 1rem;
+border: 0.1rem solid var(--light-gray-color);
+text-align: left;
+}
+
+table tfoot {
+text-align: left,;
+}

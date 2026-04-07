@@ -1,0 +1,63 @@
+.menu {
+border-bottom: 0.2rem solid var(--light-gray-color);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+padding: 0 var(--gap);
+z-index: 1;
+width: 100%;
+}
+
+.menu-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.menu h1 {
+font-size: 2.3rem;
+color: var(--primary-color);
+}
+
+.menu h1 a {
+color: inherit;
+font-size: 2.3rem;
+display: block;
+color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu ul {
+display: flex;
+list-style: none;
+}
+
+.menu ul li a {
+position: relative;
+padding: 2rem;
+font-size: 1.8rem;
+display: block;
+color: var(--primary-color);
+font-family: "Montserrat", sans-serif;
+}
+
+.menu ul li a::after {
+background: var(--secondary-color);
+content: '';
+position: absolute;
+left: 50%;
+bottom: 1rem;
+width: 0;
+height: 0.2rem;
+transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+width: 50%;
+left: 25%;
+}
+
+.menu-spacing {
+height: 6.5rem;
+}
